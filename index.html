@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage your team's work</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="loader">
+        <div class="loading">
+            <div class="circle"></div>
+            <div class="left-sq"></div>
+            <div class="right-sq"></div>
+        </div>
+    </div>
+
+    <header>
+        <div class="head-container">
+            <div class="logo">
+                <img src="imeges/asana-logo.png" alt="">
+            </div>
+            
+                <nav>
+                    <ul class="nav-li">
+                        <li>Features <i class="fa fa-chevron-down"></i></li>
+                        <li class="list">Solutions <i class="fa fa-chevron-down"></i></li>
+                        <li>Resources <i class="fa fa-chevron-down"></i></li>
+                        <li>Enterprise</li>
+                        <li>Pricing</li>
+                    </ul>
+                </nav>
+
+            <div class="buttons">
+                <a id="sales-team">Contact sales</a>
+                <a id="log-btn">Log In</a>
+                <a class="new-user" href="">Get started</a>
+            </div>
+        </div>
+    
+
+        <div class="progress">
+            <div class="progress-bar"></div>
+        </div>
+
+    </header>
+    
+
+    <section class="first">
+        <!-- <div class="menu">
+            <div class="sub-menu">
+                <ul>
+                    <p>Teams</p>
+                    <li>shyrshj</li>
+                    <li>ajsty</li>
+                    <li>zajtdkym</li>
+                </ul>
+                <ul>
+                    <p>دسته بندی</p>
+                    <li>shyrshj</li>
+                    <li>ajsty</li>
+                    <li>zajtdkym</li>
+                </ul>
+                <ul>
+                    <p>دسته بندی</p>
+                    <li>shyrshj</li>
+                    <li>ajsty</li>
+                    <li>zajtdkym</li>
+                </ul>
+        </div> -->
+            <h3>A smarter way to work</h3>
+            <p>With Asana, you can drive clarity and impact at scale by <br> connecting work and workflows to company-wide goals.</p>
+            <a class="new-user" href="">Get started</a>
+            <a class="bt">see how it's work</a>
+            <div class="home-img">
+                <img src="imeges/mainpic.webp" alt="">
+            </div>
+    </section>
+    <section class="second">
+        <p>
+            <div class="head-text">See how different</div>
+            <div class="head-text">departments use Asana</div>
+        </p>
+        <div class="parent-btn">
+            <div class="btn btn1 btn-clk"><p class="red">Marketing </p></div>
+            <div class="btn btn3"><p class="red">Operations</p></div>
+            <div class="btn btn2"><p class="red">IT </p></div>
+            <div class="btn btn4"><p class="red">Product</p></div>
+            <div class="btn btn5"><p class="red">Company-wide</p></div>
+        </div>
+
+        <div class="box box1 Show">
+            <div class="left-box">
+                <img src="imeges/marketing.webp">
+            </div>
+
+            <div class="right-box">
+                <p class="center-text">Deliver impactful <br> marketing strategies</p>
+                <ul>
+                    <li>Collaborate on cross-team work for campaigns</li>
+                    <li>Help teams quickly refocus around shifting business needs</li>
+                    <li> Automate processes for approvals</li>
+                </ul>
+                
+            </div>
+            
+        </div>
+        
+        <div class="box box2">
+            <div class="left-box">
+                <img src="imeges/home24-it-team-ui.webp">
+            </div>
+
+            <div class="right-box">
+                <p class="center-text">Automate and <br> streamline IT requests</p>
+                <ul>
+                    <li>Reduce digital friction for better team velocity</li>
+                    <li>Get more control for critical security needs</li>
+                    <li>Streamline workflows across teams</li>
+                </ul>
+                
+            </div>
+            
+        </div>
+
+        <div class="box box3">
+            <div class="left-box">
+                <img src="imeges/home24-operations-team-ui.webp">
+            </div>
+
+            <div class="right-box">
+                <p class="center-text">Drive operational <br>efficiency</p>
+                <ul>
+                    <li>Track work and see progress in real time</li>
+                    <li>Standardize and automate processes</li>
+                    <li>Unblock teams to hit revenue goals</li>
+                </ul>
+                
+            </div>
+            
+        </div>
+        <div class="box box4">
+            <div class="left-box">
+                <img src="imeges/home24-product-team-ui.webp">
+            </div>
+
+            <div class="right-box">
+                <p class="center-text">Launch better products faster</p>
+                <ul>
+                    <li>Keep product development on track</li>
+                    <li>Centralize launch information</li>
+                    <li>Tie your product roadmap to your strategy</li>
+                </ul>
+                
+            </div>
+            
+        </div>
+        <div class="box box5">
+            <div class="left-box">
+                <img src="imeges/home24-company-team-ui.webp">
+            </div>
+
+            <div class="right-box">
+                <p class="center-text">Create a single source of truth</p>
+                <ul>
+                    <li>Connect your work to company goals</li>
+                    <li>Automate workflows across departments</li>
+                    <li>Make better decisions faster with access to real-time data</li>
+                </ul>
+                
+            </div>
+            
+        </div>
+        <!--  -->
+        
+
+        
+    </section>
+    <section class="third">
+        <div class="colors">
+            <span id="blue" onclick="colorChange('blue')"> rgb(51, 51, 174)</span>
+            <span id="pink" onclick="colorChange('pink')">rgb(133, 13, 213)</span>
+            <span id="aqua" onclick="colorChange('aqua')">rgb(28, 162, 162)</span>
+            <span id="purple" onclick="colorChange('purple')">purple</span>
+            <span id="green" onclick="colorChange('green')">#285B52</span>
+        </div>
+        <p class="head-txt">
+            Why companies choose Asana
+        </p>
+        <hr>
+        <div class="p-box">
+            <div class="m-box">
+                <p class="left-text">The only platform <br> with goals built in</p>
+                <p>See related tasks, collaborators and progress <a href="#"> to quickly achieve business goals.</a></p>
+            </div>
+            <hr>
+            <div class="m-box">
+                <p class="left-text">Rated best for cross- <br>team collaboration</p>
+                <p><a href="#">Asana is rated as a leader</a> in work management by industry <br> experts.</p>
+            </div>
+            <hr>
+            <div class="m-box">
+                <p class="left-text">Simple adoption, <br> with less downtime</p>
+                <p><a href="#">Get tailored support</a> to help your teams easily migrate existing <br> data and adopt Asana.</p>
+            </div>
+            <hr>
+            <button>see how it works</button>
+        </div>
+    </section>
+
+
+    <section class="fifth slider">
+        <p class="head-title">The world's top companies trust Asana</p>
+        <div class="a-tag"><a href="">See all case studies</a></div>
+
+        <div class="parent-card">
+            <div class="card card1">
+                <img src="imeges/home24-overstock-customers.webp">
+                <div class="txt-card">
+                    <h4>Overstock</h4>
+                    <p>Overstock manages hundreds of partner relationships with Asana</p>
+                    <div class="hide hide1"><a href="">view case study</a></div>
+                </div>
+            </div>
+            <div class="card card2">
+                <img src="imeges/home24-hubspot-customers.webp">
+                <div class="txt-card">
+                    <h4>Hubspot</h4>
+                    <p>Increased production of advertising campaigns for clients by 50% each month</p>
+                    <div class="hide hide2"><a href="">view case study</a></div>
+                </div>
+            </div>
+            <div class="card card3">
+                <img src="imeges/home24-figma-customers.webp">
+                <div class="txt-card">
+                    <h4>Figma</h4>
+                    <p>Figma's product team reduced meeting time by 50% with Asana</p>
+                    <div class="hide hide3"><a href="">view case study</a></div>
+                </div>
+            </div>
+            <div class="card card4">
+                <img src="imeges/home24-sony-customers.webp">
+                <div class="txt-card">
+                    <h4>Sony Music</h4>
+                    <p>Sony Music boosted their creative production capacity by 4x with Asana</p>
+                    <div class="hide hide4"><a href="">view case study</a></div>
+                </div>
+            </div>
+            <div class="card card5">
+                <img src="imeges/home24-zoom-customers.webp">
+                <div class="txt-card">
+                    <h4>Zoom</h4>
+                    <p>Zoom saves 133 work weeks per year with Asana</p>
+                    <div class="hide hide5"><a href="">view case study</a></div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="slider-icon">
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(-1)">❯</a>
+        </div>
+
+    </section>
+  
+
+
+    <section class=" black">
+        
+        <div class="b-box">
+            
+            <div class="b-left">
+                <div class="top-title">
+                    <h2>Enterprise-grade security </h2>
+                    <p>Ensure your company's data is completely secure and that you're in compliance with the latest standards.</p>
+                </div>
+                <div class="cardx">
+                    <div class="bord">
+                        <div class="innerbord"></div>
+                    </div>
+                    <div class="ques-contain active">
+                        <div class="ques">Automate your workflows</div>
+                        <span class="open ">+</span>
+                        <span class="close active">-</span>
+                    </div>
+                    <div class="answer active">
+                        <p>Put tasks on autopilot like assigning work, setting due dates, and more.</p>
+                        <a>see more</a>
+                    </div>
+                </div>
+            
+                <div class="cardx">
+                    <div class="bord">
+                    </div>
+                    <div class="ques-contain">
+                        <div class="ques">Streamline your reports</div>
+                        <span class="open active">+</span>
+                        <span class="close ">-</span>
+                    </div>
+                    <div class="answer">
+                        <p>Get real-time insights into progress for any workstream.</p>
+                        <a> see more</a>
+                    </div>
+                </div>
+                <div class="cardx">
+                    <div class="bord">
+                    </div>
+                    <div class="ques-contain">
+                        <div class="ques">Manage your intakes</div>
+                        <span class="open active">+</span>
+                        <span class="close ">-</span>
+                        </div>
+                        <div class="answer">
+                            <p>Make it easy to collect information and triage incoming requests.</p>
+                            <a>see more</a>
+                        </div>
+                </div>
+            
+                <div class="cardx">
+                    <div class="bord">
+                    </div>
+                    <div class="ques-contain">
+                        <div class="ques">Connect work to purpose</div>
+                        <span class="open active">+</span>
+                        <span class="close ">-</span>
+                    </div>
+                    <div class="answer">
+                        <p>Manage risks and dependencies on company goals for better collaboration with leadership.</p>
+                        <a>see more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="b-right">
+                <div class="b-imag">
+                    <img src="imeges/imag1.webp">
+                </div>
+                <div class="b-imag">
+                    <img src="imeges/image2.webp">
+                </div>
+                <div class="b-imag">
+                    <img src="imeges/imag3.webp">
+                </div>
+                <div class="b-imag">
+                    <img src="imeges/imag4.webp" >
+                </div>
+                <div class="b-imag">
+                    <img src="imeges/imag5.webp">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="sidebar">
+        <div class="side-btn">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="sales-team">
+            <p>talk with our sales team</p>
+            <textarea name="chat" id="chat" cols="30" rows="10" maxlength="400"></textarea><span id="count"></span>
+            <br>
+            <button>submit</button>
+        </div>
+    </div>
+    
+    <div class="bg-log notShow">
+        <div class="exit">
+            <i class="fa fa-times"></i>
+        </div>
+        <div class="log-in">
+            <p>You’re one click away <br>
+                from less busywork</p>
+    
+            <div class="password">
+                <div class="toggle" onclick="showHide()">
+            </div>
+            <input type="email"placeholder="name@company.com">
+            <br>
+            <input type="password" id="password" placeholder="Enter your password">
+            <br>
+            <button class="log-btn">confirm</button>
+        </div>
+    </div>
+
+    <div id="loading">
+        <div class="load-box">
+            <div id="circle"></div>
+            <div id="Lsqu"></div>
+            <div id="Rsqu"></div>
+        </div>
+    </div>
+    
+
+
+    
+
+
+    <script src="js/script.js"></script>
+    <script src="js/all.min.js"></script>
+
+</body>
+</html>
